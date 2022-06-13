@@ -63,6 +63,10 @@ import org.neo4j.server.web.WebServer;
 import static org.neo4j.server.configuration.ServerSettings.jmx_module_enabled;
 import static org.neo4j.server.database.LifecycleManagingDatabase.lifecycleManagingDatabase;
 
+/**
+ * This class is copied from neo4j3.3 that used as the EnterpriseNeoServer for enterprise edition.
+ */
+
 public class OpenEnterpriseNeoServer extends CommunityNeoServer
 {
 

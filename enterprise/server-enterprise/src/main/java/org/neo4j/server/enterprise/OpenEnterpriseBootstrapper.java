@@ -13,6 +13,10 @@ import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.Collection;
 
+
+/**
+ * This class is copied from neo4j3.3 that used as the part of EntryPoint for enterprise edition.
+ */
 public class OpenEnterpriseBootstrapper extends CommunityBootstrapper
 {
 

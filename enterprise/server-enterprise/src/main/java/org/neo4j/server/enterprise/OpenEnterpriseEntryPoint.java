@@ -4,6 +4,10 @@ import org.neo4j.server.BlockingBootstrapper;
 import org.neo4j.server.Bootstrapper;
 import org.neo4j.server.ServerBootstrapper;
 
+/**
+ * This class is copied from neo4j3.3 that used as the EntryPoint for enterprise edition.
+ */
+
 public class OpenEnterpriseEntryPoint
 {
 
