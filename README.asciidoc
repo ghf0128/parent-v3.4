@@ -1,4 +1,4 @@
-This version is based on Neo4j 3.4.19 and added the Enterprise main class for enterprise edition.
+This version is based on Neo4j 3.4.19. Added the Enterprise main class in order to enable the  enterprise features.
 
 = Neo4j: Graphs for Everyone =
 

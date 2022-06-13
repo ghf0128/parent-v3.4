@@ -1,1 +1,1 @@
-For license info, look into the src/main/distribution/text/community directory.
+Copied from community module and modified accordingly for enabling the enterprise distribution.
