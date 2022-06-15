@@ -133,7 +133,7 @@ public abstract class Protocol
 
     public static void writeChars( ChannelBuffer buffer, char[] chars )
     {
-        // TODO optimize?
+
         for ( char ch : chars )
         {
             buffer.writeChar( ch );
