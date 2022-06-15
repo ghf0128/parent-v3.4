@@ -622,18 +622,6 @@ public class FileUtils
         return path;
     }
 
-    // TODO javadoc what this one does. It comes from Serverutil initially.
-    public static File getMostCanonicalFile( File file )
-    {
-        try
-        {
-            return file.getCanonicalFile().getAbsoluteFile();
-        }
-        catch ( IOException e )
-        {
-            return file.getAbsoluteFile();
-        }
-    }
 
     public static void writeAll( FileChannel channel, ByteBuffer src, long position ) throws IOException
     {

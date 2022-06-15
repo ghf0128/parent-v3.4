@@ -46,7 +46,7 @@ import org.neo4j.kernel.impl.transaction.log.checkpoint.StoreCopyCheckPointMutex
 import org.neo4j.storageengine.api.StoreFileMetadata;
 
 import static org.neo4j.com.RequestContext.anonymous;
-import static org.neo4j.io.fs.FileUtils.getMostCanonicalFile;
+import static org.neo4j.com.ServerUtil.getMostCanonicalFile;
 import static org.neo4j.io.fs.FileUtils.relativePath;
 
 /**

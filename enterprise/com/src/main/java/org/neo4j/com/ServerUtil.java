@@ -22,6 +22,8 @@
  */
 package org.neo4j.com;
 
+import java.io.File;
+import java.io.IOException;
 import java.net.InetSocketAddress;
 
 public class ServerUtil
@@ -48,6 +50,24 @@ public class ServerUtil
         else
         {
             return socketAddress.getAddress().getHostAddress();
+        }
+    }
+
+    /**
+     * The method is used in the {@link org.neo4j.com.storecopy.StoreCopyServer} for getting the absolute file of the storeDirectory.
+     *
+     * @param file
+     * @return
+     */
+    public static File getMostCanonicalFile(File file )
+    {
+        try
+        {
+            return file.getCanonicalFile().getAbsoluteFile();
+        }
+        catch ( IOException e )
+        {
+            return file.getAbsoluteFile();
         }
     }
 }
